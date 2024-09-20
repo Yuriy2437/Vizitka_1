@@ -141,6 +141,10 @@ li {
     padding: 30px;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .title {
     font-size: 1rem;
   }
@@ -158,6 +162,10 @@ li {
 @media screen and (min-width: 743px) and (max-width: 800px) {
   .outer-wrapper {
     padding: 25px;
+  }
+
+  .company-name {
+    margin-bottom: 5px;
   }
 
   .title {
@@ -183,6 +191,10 @@ li {
     font-size: 0.8rem;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .main-text {
     font-size: 0.8rem;
     margin-top: -60px;
@@ -200,6 +212,10 @@ li {
 
   .title {
     font-size: 0.7rem;
+  }
+
+  .company-name {
+    margin-bottom: 5px;
   }
 
   .main-text {
@@ -221,6 +237,10 @@ li {
     font-size: 0.6rem;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .main-text {
     font-size: 0.6rem;
     margin-top: -40px;
@@ -238,6 +258,10 @@ li {
 
   .title {
     font-size: 0.5rem;
+  }
+
+  .company-name {
+    margin-bottom: 5px;
   }
 
   .main-text {
@@ -259,6 +283,10 @@ li {
     font-size: 0.4rem;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .main-text {
     font-size: 0.4rem;
     margin-top: -40px;
@@ -276,6 +304,10 @@ li {
 
   .title {
     font-size: 0.3rem;
+  }
+
+  .company-name {
+    margin-bottom: 5px;
   }
 
   .main-text {
@@ -297,6 +329,10 @@ li {
     font-size: 0.2rem;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .main-text {
     font-size: 0.2rem;
     margin-top: -40px;
@@ -316,6 +352,10 @@ li {
     font-size: 0.15rem;
   }
 
+  .company-name {
+    margin-bottom: 5px;
+  }
+
   .main-text {
     font-size: 0.15rem;
     margin-top: -40px;
@@ -333,6 +373,10 @@ li {
 
   .title {
     font-size: 0.1rem;
+  }
+
+  .company-name {
+    margin-bottom: 5px;
   }
 
   .main-text {

@@ -117,6 +117,10 @@ li {
 }
 
 @media screen and (min-width: 925px) and (max-width: 1030px) {
+  .outer-wrapper {
+    padding: 40px;
+  }
+
   .header {
     margin-bottom: -110px;
   }
@@ -135,6 +139,10 @@ li {
 }
 
 @media screen and (min-width: 800px) and (max-width: 925px) {
+  .outer-wrapper {
+    padding: 30px;
+  }
+
   .header {
     margin-bottom: -90px;
   }
@@ -153,6 +161,10 @@ li {
 }
 
 @media screen and (min-width: 743px) and (max-width: 800px) {
+  .outer-wrapper {
+    padding: 25px;
+  }
+
   .header {
     margin-bottom: -70px;
   }
@@ -171,6 +183,10 @@ li {
 }
 
 @media screen and (min-width: 678px) and (max-width: 743px) {
+  .outer-wrapper {
+    padding: 20px;
+  }
+
   .header {
     margin-bottom: -60px;
   }
@@ -189,6 +205,10 @@ li {
 }
 
 @media screen and (min-width: 615px) and (max-width: 678px) {
+  .outer-wrapper {
+    padding: 16px;
+  }
+
   .header {
     margin-bottom: -50px;
   }
@@ -207,6 +227,10 @@ li {
 }
 
 @media screen and (min-width: 560px) and (max-width: 615px) {
+  .outer-wrapper {
+    padding: 12px;
+  }
+
   .header {
     margin-bottom: -50px;
   }
@@ -225,6 +249,10 @@ li {
 }
 
 @media screen and (min-width: 465px) and (max-width: 560px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -50px;
   }
@@ -243,6 +271,10 @@ li {
 }
 
 @media screen and (min-width: 406px) and (max-width: 465px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -50px;
   }
@@ -261,6 +293,10 @@ li {
 }
 
 @media screen and (min-width: 350px) and (max-width: 406px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -50px;
   }
@@ -279,6 +315,10 @@ li {
 }
 
 @media screen and (min-width: 315px) and (max-width: 350px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -40px;
   }
@@ -297,6 +337,10 @@ li {
 }
 
 @media screen and (min-width: 250px) and (max-width: 315px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -40px;
   }
@@ -315,6 +359,10 @@ li {
 }
 
 @media screen and (max-width: 250px) {
+  .outer-wrapper {
+    padding: 10px;
+  }
+
   .header {
     margin-bottom: -40px;
   }

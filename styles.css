@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 5px;
+  background-color: #672801;
+}
+
+.outer-wrapper {
+  padding: 50px;
+  background: linear-gradient(to bottom, #057540, #000);
+  border-radius: 5px;
+}
+
+.inner-wrapper {
+  background-color: #9da52a47;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.content {
+  background-color: rgb(242, 246, 217);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -210px;
+}
+
+.logo {
+  width: auto; /* Это обеспечивает сохранение оригинальной ширины изображения */
+  height: auto; /* Это обеспечивает сохранение оригинальной высоты изображения */
+}
+
+.half-size {
+  width: 30%; /* Уменьшаем ширину на 50% */
+  height: 30%; /* Высота автоматически подстраивается, сохраняя пропорции */
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.company-name {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.company-description {
+  display: block;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.essence {
+  margin-top: 13px;
+}
+
+.amazon-images {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.amazon-images img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-style: italic;
+  color: black;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.email-link {
+  color: inherit; /* Наследует цвет текста от родительского элемента */
+  text-decoration: none; /* Убирает подчеркивание по умолчанию */
+  transition: color 0.3s, text-decoration 0.3s; /* Плавный переход для эффектов */
+}
+
+.email-link:hover {
+  color: #00bfff; /* Голубой цвет при наведении */
+  text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.email-link:active {
+  color: #0000ff; /* Синий цвет при нажатии */
+}
+
+@media screen and (min-width: 925px) and (max-width: 1030px) {
+  .header {
+    margin-bottom: -110px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .main-text {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 925px) {
+  .header {
+    margin-bottom: -90px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .main-text {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 800px) {
+  .header {
+    margin-bottom: -70px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .main-text {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 678px) and (max-width: 743px) {
+  .header {
+    margin-bottom: -60px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .main-text {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 615px) and (max-width: 678px) {
+  .header {
+    margin-bottom: -50px;
+  }
+
+  .title {
+    font-size: 0.7rem;
+  }
+
+  .main-text {
+    font-size: 0.7rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 615px) {
+  .header {
+    margin-bottom: -50px;
+  }
+
+  .title {
+    font-size: 0.6rem;
+  }
+
+  .main-text {
+    font-size: 0.6rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 465px) and (max-width: 560px) {
+  .header {
+    margin-bottom: -50px;
+  }
+
+  .title {
+    font-size: 0.5rem;
+  }
+
+  .main-text {
+    font-size: 0.5rem;
+  }
+
+  p {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 406px) and (max-width: 465px) {
+  .header {
+    margin-bottom: -50px;
+  }
+
+  .title {
+    font-size: 0.4rem;
+  }
+
+  .main-text {
+    font-size: 0.4rem;
+  }
+
+  p {
+    font-size: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 406px) {
+  .header {
+    margin-bottom: -50px;
+  }
+
+  .title {
+    font-size: 0.3rem;
+  }
+
+  .main-text {
+    font-size: 0.3rem;
+  }
+
+  p {
+    font-size: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 315px) and (max-width: 350px) {
+  .header {
+    margin-bottom: -40px;
+  }
+
+  .title {
+    font-size: 0.2rem;
+  }
+
+  .main-text {
+    font-size: 0.2rem;
+  }
+
+  p {
+    font-size: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 315px) {
+  .header {
+    margin-bottom: -40px;
+  }
+
+  .title {
+    font-size: 0.15rem;
+  }
+
+  .main-text {
+    font-size: 0.15rem;
+  }
+
+  p {
+    font-size: 0.15rem;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .header {
+    margin-bottom: -40px;
+  }
+
+  .title {
+    font-size: 0.1rem;
+  }
+
+  .main-text {
+    font-size: 0.1rem;
+  }
+
+  p {
+    font-size: 0.1rem;
+  }
+}

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   subscribeButton.addEventListener('click', async function () {
     if (emailInput.value && phoneInput.value) {
       try {
-        const response = await fetch('http://localhost:3000/subscribe', {
+        const response = await fetch('/api/subscribe', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         if (response.ok) {
-          // alert('Thanks for subscribing to SKYLINE WHOLESALE LLC');
           // Если подписка успешна, очищаем поля ввода
           emailInput.value = '';
           phoneInput.value = '';

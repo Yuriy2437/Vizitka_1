@@ -8,7 +8,7 @@ body {
   background-color: #672801;
 }
 
-.outer-wrapper {
+/* .outer-wrapper {
   padding: 50px;
   background: linear-gradient(to bottom, #057540, #000);
   border-radius: 5px;
@@ -18,7 +18,7 @@ body {
   background-color: #9da52a47;
   border-radius: 5px;
   padding: 5px;
-}
+} */
 
 .content {
   background-color: rgb(242, 246, 217);
@@ -98,8 +98,11 @@ li {
 
 .contacts {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.contacts > :nth-child(1) {
+  margin-top: 20px;
 }
 
 .email-link {
@@ -115,6 +118,49 @@ li {
 
 .email-link:active {
   color: #0000ff; /* Синий цвет при нажатии */
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 60px; */
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+.privacy-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.privacy-link:hover {
+  color: #00bfff;
+}
+
+#subscribeButton {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#subscribeButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form input[type='email'],
+.form input[type='tel'] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 925px) and (max-width: 1030px) {

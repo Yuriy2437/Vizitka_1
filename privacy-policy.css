@@ -1,0 +1,18 @@
+body {
+  background-color: bisque;
+  color: black;
+  font-style: italic;
+}
+
+/* .policy {
+  background-color: bisque;
+  color: black;
+} */
+
+.title_policy {
+  font-size: 20px;
+}
+
+.text_policy {
+  font-size: 16px;
+}

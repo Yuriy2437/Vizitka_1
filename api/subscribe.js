@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         from: 'wholesale@allskyline.com',
         to: email,
         subject: 'Subscription Confirmation',
-        text: `To start receiving messages from SKYLINE WHOLESALE LLC, send a message with the word "START" from your number ${phone}, which you entered when subscribing, to our company number +18779380764. If you want to unsubscribe from the mailing list, send an SMS with the word "STOP" to our company number +18779380764.`,
+        text: `Thanks for subscribing to SKYLINE WHOLESALE LLC. To start receiving messages from SKYLINE WHOLESALE LLC, send a message with the word "START" from your number ${phone}, which you entered when subscribing, to our company number +18779380764. If you want to unsubscribe from the mailing list, send an SMS with the word "STOP" to our company number +18779380764.`,
       });
       return res.status(200).json({ message: 'Subscription successful' });
     } catch (error) {

@@ -105,20 +105,20 @@ li {
   margin-top: 20px;
 }
 
-.email-link {
-  color: inherit; /* Наследует цвет текста от родительского элемента */
-  text-decoration: none; /* Убирает подчеркивание по умолчанию */
-  transition: color 0.3s, text-decoration 0.3s; /* Плавный переход для эффектов */
+/* .email-link {
+  color: inherit; 
+  text-decoration: none; 
+  transition: color 0.3s, text-decoration 0.3s; 
 }
 
 .email-link:hover {
-  color: #00bfff; /* Голубой цвет при наведении */
-  text-decoration: underline; /* Подчеркивание при наведении */
+  color: #00bfff; 
+  text-decoration: underline; 
 }
 
 .email-link:active {
-  color: #0000ff; /* Синий цвет при нажатии */
-}
+  color: #0000ff; 
+}  */
 
 .bottom {
   display: flex;

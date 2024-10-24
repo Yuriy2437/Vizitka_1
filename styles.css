@@ -68,6 +68,7 @@ p {
 
 .essence {
   margin-top: 13px;
+  padding-left: 40px;
 }
 
 .amazon-images {
@@ -86,7 +87,6 @@ p {
   font-style: italic;
   color: black;
   margin-top: -210px;
-  padding-left: 40px;
 }
 
 ul {

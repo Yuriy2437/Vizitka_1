@@ -5,6 +5,7 @@ body {
 
 .container {
   padding: 5px;
+  padding-left: 25px;
   background-color: #672801;
 }
 
@@ -105,26 +106,10 @@ li {
   margin-top: 20px;
 }
 
-/* .email-link {
-  color: inherit; 
-  text-decoration: none; 
-  transition: color 0.3s, text-decoration 0.3s; 
-}
-
-.email-link:hover {
-  color: #00bfff; 
-  text-decoration: underline; 
-}
-
-.email-link:active {
-  color: #0000ff; 
-}  */
-
 .bottom {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* margin-top: 60px; */
 }
 
 .form {
